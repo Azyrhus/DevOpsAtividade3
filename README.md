@@ -13,4 +13,4 @@ npm install
 npm start
 
 ## Deploy
-https://NOME-DO-PROJETO.vercel.app
+https://NOME-DO-PROJETO.vercel.app](https://dev-ops-atividade3.vercel.app/
