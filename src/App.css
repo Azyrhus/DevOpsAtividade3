@@ -1,0 +1,62 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-family: system-ui, sans-serif;
+}
+
+.app-header {
+  text-align: center;
+  padding: 3rem 1rem 1rem;
+}
+
+.app-header h1 {
+  margin: 0;
+  color: #38bdf8;
+}
+
+.conteudo {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  min-width: 260px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+button {
+  background: #38bdf8;
+  color: #0f172a;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  margin-right: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #7dd3fc;
+}
+
+button.secundario {
+  background: #475569;
+  color: #e2e8f0;
+}
+
+.rodape {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
